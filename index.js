@@ -79,7 +79,7 @@ const saveDataToInflux = (data) => {
 
 schedule.scheduleJob("* * * * *", function () {
   config.servers.forEach((server) => {
-    console.log("Running job for: " + server.ip);
+    console.log("Running job for: " + (server.name || server.ip + ':' + server.port));
     getStats(server).then((result) => {
       saveDataToInflux(result);
     });
