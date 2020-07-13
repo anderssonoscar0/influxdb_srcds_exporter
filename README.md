@@ -21,11 +21,12 @@ Is there a Grafana dashboard available ? SOON
 
 ## Config Setup
 
-influxHost = your ip or hostname to your InfluxDB
-influxDatabase = name of your InfluxDB
-influxUsername = username to your InfluxDB
-influxPassword = password to your InfluxDB
+1. influxHost = your ip or hostname to your InfluxDB
+2. influxDatabase = name of your InfluxDB
+3. influxUsername = username to your InfluxDB
+4. influxPassword = password to your InfluxDB
 
+5. 
 servers is a list of servers. If you got multiple just add another
 {
 ip: "care-free.net",
