@@ -15,7 +15,7 @@ You need to have NodeJS installed if you want to run the sources, NVM (Node Vers
 
 ## Grafana dashboard
 
-Is there a Grafana dashboard available ? SOON
+Is there a Grafana dashboard available ? YES!
 
 https://grafana.com/grafana/dashboards/12645
 
